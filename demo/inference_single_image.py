@@ -52,13 +52,13 @@ def get_args():
     parser.add_argument(
         "--gdino_config",
         type=str,
-        default="GroundingDINO/groundingdino/config/GroundingDINO_SwinT_OGC.py",
+        default="GroundingDINO/groundingdino/config/GroundingDINO_SwinB_cfg.py",  # GroundingDINO_SwinT_OGC.py",
         help="Path to Grounding DINO config",
     )
     parser.add_argument(
         "--gdino_weights",
         type=str,
-        default="GroundingDINO/weights/groundingdino_swint_ogc.pth",
+        default="GroundingDINO/weights/groundingdino_swinb_cogcoor.pth",  # groundingdino_swint_ogc.pth",
         help="Path to Grounding DINO weights",
     )
     parser.add_argument(
